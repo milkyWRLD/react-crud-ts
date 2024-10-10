@@ -1,0 +1,39 @@
+.notes-container {
+	position: relative;
+}
+
+.card {
+	margin: 5px;
+	width: 200px;
+	height: auto;
+	word-wrap: break-word;
+	padding: 5px;
+	position: relative;
+}
+
+.close-btn,
+.refresh-btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+	font-size: 14px;
+	line-height: 1;
+	background: transparent;
+	border: none;
+	padding: 0;
+}
+
+.refresh-btn {
+	font-size: 2em;
+}
+
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.add-btn {
+	width: 100%;
+	margin: 5px 0;
+}
